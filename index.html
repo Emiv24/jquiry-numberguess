@@ -19,6 +19,11 @@
 
     <div id="crystals">
     </div>
+     
+    <p id="info">At the start of a new game you are given a random number to guess.
+    Each dimand is given a random unknown value you must figure out. click
+    on the dimands and try to figure out their values so you can add them 
+    to the exact number you were given to guess.</p>
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
@@ -87,7 +92,6 @@
 
                 wins++;
                 $('#wins').text(wins);
-                alert("You win!");
                 resetGame();
             }
 
@@ -95,7 +99,6 @@
 
                 loses++
                 $('#loses').text(loses);
-                alert("You lose:(");
                 resetGame();
             }
 
