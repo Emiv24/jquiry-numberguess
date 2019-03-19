@@ -2,3 +2,65 @@
     width: 200px;
     height: 200px;
 }
+
+body{
+    background-image: url("Space-Vortex.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1{
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    border-radius: 20px;
+    background-color: rgb(22, 127, 197);
+    text-decoration-color: aliceblue;
+    font-family: 'Arvo', serif;
+    font-size: 45px;
+    text-align: center;
+    color: aliceblue;
+
+}
+
+#ntg{
+    font-family: 'Acme', sans-serif;
+    color: aliceblue;
+    font-size: 30px;
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+}
+
+#cn{
+    font-family: 'Acme', sans-serif;
+    color: aliceblue;
+    font-size: 30px;
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+}
+
+#w{
+    font-family: 'Acme', sans-serif;
+    color: aliceblue;
+    font-size: 30px;
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+}
+
+#l{
+    font-family: 'Acme', sans-serif;
+    color: aliceblue;
+    font-size: 30px;
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+}
+
+#crystals{
+    margin: auto;
+    text-align: center;
+
+}

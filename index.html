@@ -2,21 +2,20 @@
 <html>
 <title>simple crystal game</title>
 <link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Acme|Arvo" rel="stylesheet">
 
-<head>
-    <strong>Random Number Adder</strong>
-
-</head>
-
-<div>Number to Guess: <span id="number-to-guess"></span></div>
-
-<div>Current Number: <span id="currentNumber"></span></div>
-
-<div>Wins: <span id="wins"></span></div>
-<div>Loses: <span id="loses"></span></div>
 
 <body>
+    
+    <h1>Random Number Adder</h1>
 
+    <div id="ntg">Number to Guess: <span id="number-to-guess"></span></div>
+
+    <div id="cn">Current Number: <span id="currentNumber"></span></div>
+
+    <div id="w">Wins: <span id="wins"></span></div>
+    <div id="l">Loses: <span id="loses"></span></div>
 
     <div id="crystals">
     </div>
@@ -24,7 +23,6 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <script type="text/javascript">
-
         var minNumber = 9;
         var maxNumber = 100;
         var targetNumber;
@@ -34,6 +32,7 @@
 
 
         var resetGame = function () {
+
             targetNumber = Math.floor(Math.random() * (maxNumber - 5) + minNumber);
             $('#number-to-guess').text(targetNumber);
             counter = 0
@@ -41,13 +40,14 @@
         }
         resetGame();
 
-        var num1 = Math.floor(Math.random() * (maxNumber - 5) + minNumber);
-            
-        var num2 = 12;
-        var num3 = 7;
-        var num4 = 9;
-        var numberOptions = [ num1, num2, num3, num4]
-    
+
+        var num1 = 8;
+        var num2 = 3;
+        var num3 = 4;
+        var num4 = 13;
+        var num5 = 9;
+        var numberOptions = [num1, num2, num3, num4, num5]
+
 
 
 
